@@ -36,7 +36,7 @@ DeviceFileEvents
 | where FileName has "tor"
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ```
-<img width="1050" height="600" alt="image" src="https://github.com/user-attachments/assets/f368a3f1-b86d-4b98-8b86-94e47a4211fe" />
+<img width="1050" height="1000" alt="image" src="https://github.com/user-attachments/assets/f368a3f1-b86d-4b98-8b86-94e47a4211fe" />
 
 
 ---
